@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Run the static analysis to the code'
                 echo 'HELLO'
+		echo 'HELLO AGAIN'
             }
         }
         stage('Compile') {
@@ -31,6 +32,7 @@ pipeline {
             steps {
                 echo 'Save the assemblies generated from the compilation'
                 echo 'GOODBYE'
+		echo 'GOODBYE AGAIN'
             }
         }
     }

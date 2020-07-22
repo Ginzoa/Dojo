@@ -7,6 +7,7 @@ pipeline {
                 echo 'HELLO'
 		echo 'HELLO AGAIN'
 		echo 'ESOOOOOOOOOOOOOOOOOOOOOOOO'
+		echo 'Mario tennis rifa <3'
             }
         }
         stage('Compile') {
@@ -35,6 +36,7 @@ pipeline {
                 echo 'GOODBYE'
 		echo 'GOODBYE AGAIN'
 		echo 'ESOOOOOOOOOOOOOOOOOOOOOOOO'
+		echo 'Mario tennis aces rifa <3'
             }
         }
     }
